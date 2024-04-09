@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console urok", "Console urok\Console urok.csproj", "{375983BA-163E-4CE9-BCD3-800B729C5602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console urok 2", "Console urok 2\Console urok 2.csproj", "{F22C5B51-185E-45B4-B509-FC3D916E6F8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{375983BA-163E-4CE9-BCD3-800B729C5602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{375983BA-163E-4CE9-BCD3-800B729C5602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{375983BA-163E-4CE9-BCD3-800B729C5602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{375983BA-163E-4CE9-BCD3-800B729C5602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F22C5B51-185E-45B4-B509-FC3D916E6F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F22C5B51-185E-45B4-B509-FC3D916E6F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F22C5B51-185E-45B4-B509-FC3D916E6F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F22C5B51-185E-45B4-B509-FC3D916E6F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

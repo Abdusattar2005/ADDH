@@ -1,0 +1,6 @@
+/home/abdusattar/Desktop/Raider_Projects/Console urok/Console urok/bin/Debug/Console_urok.exe
+/home/abdusattar/Desktop/Raider_Projects/Console urok/Console urok/bin/Debug/Console_urok.pdb
+/home/abdusattar/Desktop/Raider_Projects/Console urok/Console urok/obj/Debug/Console urok.csproj.AssemblyReference.cache
+/home/abdusattar/Desktop/Raider_Projects/Console urok/Console urok/obj/Debug/Console urok.csproj.CoreCompileInputs.cache
+/home/abdusattar/Desktop/Raider_Projects/Console urok/Console urok/obj/Debug/Console_urok.exe
+/home/abdusattar/Desktop/Raider_Projects/Console urok/Console urok/obj/Debug/Console_urok.pdb
