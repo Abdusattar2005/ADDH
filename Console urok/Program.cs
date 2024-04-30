@@ -6,76 +6,188 @@ namespace Console_urok
     {
         public static void Main(string[] args)
         {
-
+            
             /*
-            int a;
-            a = int.Parse(Console.ReadLine());
-            int temp = a - 2;
-            bool result = temp >= 0;
-            if (result) 
+             Тема  switch  
+                    if else
+             
+             while (true)
             {
-                Console.WriteLine("yes");
-            }
-            else
-            {
-                Console.WriteLine("no");
-            }*/
-
-            /*int a = int.Parse(Console.ReadLine());
-            switch (a)
-            {
-                case 1:
-               
-                case 2:
-                    Console.WriteLine("ffffff 1 или 2 ");
-                    break;
-                default:                    Console.WriteLine("noo");
-                    break;
-            }*/
-
-            double fff, dddd;
-            string aaa;
-            Console.WriteLine("Ведите чисо 1");
-            fff = double.Parse(Console.ReadLine());
-            
-
-            Console.WriteLine("Ведите число 2");
-            dddd = double.Parse(Console.ReadLine());
-         
-            
-            Console.WriteLine("Ведите оперфцию: '+' '-' '*' '/'");
-            aaa = Console.ReadLine();
-
-            switch (aaa)
-            {
-                case "+" :
-                    Console.WriteLine(fff+dddd);
-                    break;
-                case "-":
-                    Console.WriteLine(fff-dddd);
-                    break; 
-                case "*":
-                    Console.WriteLine(fff*dddd);
-                    break; 
-                case "/":
-                    Console.WriteLine(fff/dddd);
-                    if (fff==0)
+                Console.Clear();
+                double fff, rrr;
+                string aaa;
+                try
+                {
+                    
+                    Console.WriteLine("число 1");
+                    fff = double.Parse(Console.ReadLine());
+                                    
+                    Console.WriteLine("число 2");
+                    rrr = double.Parse(Console.ReadLine());
+                }
+                catch (Exception )
+                {
+                    Console.WriteLine("Ошибка");
+                    Console.ReadLine();
+                   continue;
+                }
+                
+    
+                Console.WriteLine("'-' '+' '*' '/' ");
+                aaa = Console.ReadLine();
+                if (aaa=="-")
+                {
+                    Console.WriteLine(fff-rrr); 
+                } 
+                else if (aaa=="+")
+                {
+                    Console.WriteLine(fff+rrr);
+                }
+                else if (aaa=="*")
+                {
+                    Console.WriteLine(fff*rrr);
+                }
+                else if (aaa=="/")
+                {
+                    if (rrr==0)
                     {
                         Console.WriteLine(0);
                     }
                     else
                     {
-                        Console.WriteLine(fff/dddd);
+                         Console.WriteLine(fff/rrr);
                     }
-                    break;
                    
-                default:
-                    Console.WriteLine("нет токого");
-                    break;
-                    
-            }
+                }
+                else
+                {
+                    Console.WriteLine("Ошибка");
+                }
+                
+                Console.ReadLine();
 
-            Console.ReadLine();
+            }
+            */
+
+
+
+            
+            
+            
+            
+
+            
+            
+             /*
+             Тема While
+                         int dd = 0;
+                         int ddw = int.Parse(Console.ReadLine());
+                         
+                         string count=(Console.ReadLine()) ;
+                         do
+                         {
+                             dd++;
+                             Console.WriteLine(dd + ": " + count + " Альбина");
+                         } while (dd < ddw);
+
+             */
+
+             
+             
+             
+             
+             
+
+                /*
+                while (true)
+                {
+                     Console.Clear();
+                    uint dddNumbercount = 0;  /*не чётные#1#
+                    uint aaaNumbercount = 0;  /* чётные#1#
+                    
+                    int dddNumberSum = 0; 
+                    int aaaNumberSum = 0;  
+                    
+                    
+
+                    try
+                    {
+                         Console.WriteLine("ведите первое число");
+                        int ss = int.Parse(Console.ReadLine());
+                        Console.WriteLine("ведите второе число");
+                        int limit = int.Parse(Console.ReadLine());
+                        
+                        while (ss <= limit)
+                        {
+                           
+                            if (ss % 2 == 0)
+                            {
+                                aaaNumbercount++;
+                                aaaNumberSum = aaaNumberSum + ss;
+                            }
+                            else
+                            {
+                                dddNumbercount++;
+                                dddNumberSum = dddNumberSum + ss;
+                            }
+                        
+                            ss++;
+                            
+                        }
+                        
+                    }
+                    catch (Exception )
+                    {
+                        Console.WriteLine("stop");
+                        Console.ReadLine();
+                        continue;
+                    }
+                   
+                   
+                                    
+                           
+                    Console.WriteLine(" не чётные  "  + dddNumbercount);
+                    Console.WriteLine("чётные  "  + aaaNumbercount);
+                    Console.WriteLine("сумма не чётные  "  + dddNumberSum);
+                    Console.WriteLine("сумма  чётные "  + aaaNumberSum);
+                    Console.ReadLine();         
+                                    
+                }
+                */
+
+
+
+                /*
+                while (true)
+                {
+                    Console.Clear();
+                     int limit = int.Parse(Console.ReadLine());
+                    for (int i = 0; i < limit; i++)
+                    {
+                       Console.WriteLine(i); 
+                       
+                    }
+
+                    Console.ReadLine();
+
+                }
+                */
+                
+                
+                
+
+                /*
+                for (; ;)
+                {
+                    Console.WriteLine("rrrr");
+                    System.Threading.Thread.Sleep(700);
+                    
+                }
+                */
+
+                
+
+
 
         }
     }   
