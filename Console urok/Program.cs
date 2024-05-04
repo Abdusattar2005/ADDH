@@ -176,14 +176,12 @@ namespace Console_urok
                 
                 
 
-                /*
                 for (; ;)
                 {
-                    Console.WriteLine("rrrr");
+                    Console.WriteLine("Альбина");
                     System.Threading.Thread.Sleep(700);
                     
                 }
-                */
 
                 
 
